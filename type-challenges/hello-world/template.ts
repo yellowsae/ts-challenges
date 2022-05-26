@@ -1,1 +1,1 @@
-type HelloWorld = any
+type HelloWorld = string
