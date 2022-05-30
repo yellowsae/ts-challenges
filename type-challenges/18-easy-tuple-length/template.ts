@@ -56,7 +56,7 @@ type Length<T extends readonly any[]> = T["length"]
 type StrNumType = [string, number]
 const t1: StrNumType = ['123', 123]
 
-type a1 = StrNumType["length"];  // type a1 = 2   -> 使用 tuple 类型的 length 返回得到的是 确定的属性值
+type a1 = StrNumType["length"];  // type a1 = 2   -> 使用 tuple 类型的 length 返回得到的是 确定的属性值， 因为 tuple 的长度和类型都是定死的 
 
 type strArray = string[]
 
