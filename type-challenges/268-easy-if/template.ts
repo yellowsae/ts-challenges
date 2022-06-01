@@ -29,6 +29,8 @@ type error = If<null, 'a', 'b'>
 
 
 // 这个规则需要 在 tsconfig.json 开启严格模式 
+//     /* Type Checking */
+// "strict": true,      ---> 开启严格模式
 
 // 需要了解的知识点： null 在严格模式下 和 非严格模式下的区别
 // null 在严格模式下： 判断布尔值时，返回  false
